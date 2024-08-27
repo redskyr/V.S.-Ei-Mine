@@ -58,6 +58,8 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons 3.2.1
           haxelib install tjson
+          haxelib install flxanimate 
+          haxelib install SScript
           haxelib install hxCodec 2.6.1
           haxelib install hxjsonast
           haxelib install hscript
