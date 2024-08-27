@@ -16,6 +16,9 @@ import openfl.display.StageScaleMode;
 import openfl.events.Event;
 import states.TitleState;
 import portable.utils.WinUtil;
+import openfl.utils.Assets as OpenFlAssets;
+import lime.system.System;
+
 #if linux
 import lime.graphics.Image;
 #end
@@ -189,8 +192,8 @@ class Main extends Sprite
 			+ e.error
 			+ "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
 
-		if (!FileSystem.exists("./crash/"))
-			FileSystem.createDirectory("./crash/");
+		if (!openFlAssets.exists("./crash/"))
+			FileSystem.createDirectory("Main.path+./crash/");
 
 		File.saveContent(path, errMsg + "\n");
 
