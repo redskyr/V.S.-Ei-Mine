@@ -331,8 +331,8 @@ class Character extends FlxSprite
 		if(!isAnimateAtlas) animation.curAnim.paused = value;
 		else
 		{
-			if(value) atlas.anim.pause();
-			else atlas.anim.resume();
+			if(value) atlas.anim.pause(false);
+			else atlas.anim.resume(false);
 		} 
 
 		return value;
