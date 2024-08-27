@@ -63,7 +63,7 @@ jobs:
           haxelib install hxCodec 2.6.1
           haxelib install hxjsonast
           haxelib install hscript
-          haxelib git hxdiscord_rpc haxelib git hxdiscord_rpc https://github.com/GuineaPigUuhh/hxdiscord_rpc
+          haxelib git hxdiscord_rpc https://github.com/GuineaPigUuhh/hxdiscord_rpc
           haxelib git linc_luajit https://github.com/mcagabe19-stuff/linc_luajit-legacy
           haxelib install extension-androidtools
           haxelib install hxcpp-debug-server
