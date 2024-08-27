@@ -643,7 +643,7 @@ class Paths
 		// trace(folderOrImg);
 		// trace(spriteJson);
 		// trace(animationJson);
-		spr.loadAtlas(folderOrImg, spriteJson, animationJson);
+		spr.loadAtlasEx(folderOrImg, spriteJson, animationJson);
 	}
 	/*private static function getContentFromFile(path:String):String
 		{
